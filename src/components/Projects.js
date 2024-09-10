@@ -59,6 +59,7 @@ display: grid;
 grid-template-columns: 1fr;
 align-items: start;
 padding: 0% 2% 0% 2%;
+margin-top: 5%;
     
   Img {
   width: 100%;
@@ -96,13 +97,14 @@ font-size: 0.8rem;
 const TagWrapper = styled.div`
 display: flex;
 max-width: 65%;
-margin-top: 5%;
+margin-top: 1%;
+margin-bottom: 5%;
 `
 
 const ProjectTags = styled.p`
 font-family: "Roboto", sans-serif;
 color: white;
-background-color:#2e5894 ;
+background-color:#2e5894;
 font-size: 0.8rem; 
 line-height: 12px;
 padding: 4px;

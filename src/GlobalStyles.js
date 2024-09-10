@@ -25,13 +25,15 @@ justify-content: center;
 
 export const HeaderText = styled.div`
 color: white;
-max-width: 45%;
+max-width: 50%;
 
 h1 {
     letter-spacing: 0.10rem;
-    max-width: 55vw;
+    width: 100vw;
     margin-left: 7%;
+    margin-bottom: 2%;
     font-size: 0.8rem;
+    font-weight: 100;
 }
 
 h2 {
@@ -49,7 +51,7 @@ h3 {
     max-width: 50vw;
     font-weight: lighter;
     margin-left: 7%;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 `
 export const SectionHeading = styled.h4`

@@ -5,7 +5,6 @@
 /* eslint-disable no-multiple-empty-lines */
 import React from 'react';
 import { HeaderText } from 'GlobalStyles';
-// import img from 'assets/Profile-image.jpg'
 import img from 'assets/profile.png'
 import { FaStackOverflow, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import styled from 'styled-components';

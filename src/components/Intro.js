@@ -18,8 +18,8 @@ letter-spacing: 0.1rem;
 font-weight: lighter;
 line-height: 20px; 
 font-size: 0.8rem;
-margin: 0% 3% 0% 3%;
-text-align: left;
+margin: 0% 3% 3% 3%;
+text-align: center;
 color:white;
 
 @media (min-width: 768px) {
@@ -33,11 +33,8 @@ export const Intro = () => {
   return (
     <IntroStyles>
       <IntroText>
-      Hello! I&apos;m a student at Technigos frontend developer bootcamp.  
-      In my jobs, I have seen opportunities where digital tools in many ways 
-      would have made it easier for both customers and patients in different ways. 
-      In the future, I hope to be able to, not only develop ideas - but also be 
-      involved in building the product itself. 
+      Frondend development with focus on 
+      websecurity at Jensen in stockholm. 
       </IntroText>
     </IntroStyles>
   );

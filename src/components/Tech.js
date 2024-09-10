@@ -11,9 +11,9 @@ import styled from 'styled-components';
 export const Tech = () => {
   return (
     <TechStyles>
-    <TechText>HTML5, CSS, <Highlighted>JavaScript</Highlighted> ES6,
-     RestAPIs, mob-programming,pair-programming, Github, Redux, Node,
-    <Highlighted> React,React Hooks, </Highlighted> Flexbox, JSX<Highlighted> Node.js </Highlighted>
+    <TechText><Highlighted>JavaScript</Highlighted> ES6,
+     RestAPIs, mob-programming,pair-programming, Github, Redux, Node.js,
+    <Highlighted> React</Highlighted> Flexbox, JSX<Highlighted> Node.js </Highlighted>
     </TechText>
     </TechStyles>
     );
@@ -33,7 +33,7 @@ line-height: 1.5;
 font-size: 0.8rem;
 letter-spacing: 0.15rem;
 font-weight: 100;
-margin: 0px 1px 0px 1px;
+margin: 0px 1px 15px 1px;
 text-align: center;
 color: white;
 
@@ -44,6 +44,7 @@ color: white;
 `
 
 const Highlighted = styled.span`
-color:#42AEB5;
+color:#2e5894;
 margin-top: 0;
+font-weight: 900;
 `

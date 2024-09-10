@@ -18,6 +18,7 @@ export const HeaderStyles = styled.header`
     border-radius: 50%; 
     border: 1px solid white;   
     position:absolute;
+    top: 60%;
     right: 5%;
     background-color: white;
     object-fit: cover;
