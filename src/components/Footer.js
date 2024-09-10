@@ -11,8 +11,8 @@ export const Footer = () => {
     <Section>
       <FooterStyles>
         <FooterText> Johanna Rosenholm </FooterText>
-        <FooterText> Rosenholm.Johanna88@gmail.com </FooterText>
-        <FooterText> +46 70 980 90 30 </FooterText>
+        <FooterText> rosenholm.johanna88@gmail.com </FooterText>
+        <FooterText> +46(0) 70 980 90 30 </FooterText>
       </FooterStyles>
     </Section>
   );
@@ -23,14 +23,15 @@ export default Footer;
 const FooterStyles = styled.div`
 font-family: 'montserrat';
 text-align:center;
-background-color:#2e5894 ;
-color: white;
+background-color:#f7f8f9;
+color: black;
 text-align: center;
-padding: 5% 0% 5% 0%;
+padding: 5% 5% 5% 5%;
 `
 
 const FooterText = styled.div`
-font-size: 1rem;
+font-size: 0.8rem;
+text-align: left;
 letter-spacing: 0.10rem;
-line-height: 40px; 
+line-height: 30px; 
 `

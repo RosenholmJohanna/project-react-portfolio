@@ -29,29 +29,29 @@ export const FeaturedProjects = () => {
             </Project>
           );
         })}
- 
-        <OtherContainer>
-          <OtherHeading>Other Projects</OtherHeading>
-          {otherprojects.map((other) => { 
-            return (
-              <Otherprojects key={other}>
-                <a href={other.url} target="_blank" rel="noopener noreferrer"> 
-                  <OtherTitle>
-                    {other.project}
-                  </OtherTitle>
-                </a>
-              </Otherprojects>
-            );
-          })}
-        </OtherContainer>
       </ProjectContainer>
+      <OtherContainer>
+        <OtherHeading>Other Projects</OtherHeading>
+        {otherprojects.map((other) => { 
+          return (
+            <Otherprojects key={other}>
+              <a href={other.url} target="_blank" rel="noopener noreferrer"> 
+                <OtherTitle>
+                  {other.project}
+                </OtherTitle>
+              </a>
+            </Otherprojects>
+          );
+        })}
+      </OtherContainer>
     </Section>
   );
 };
     
 const Section = styled.section`
-background-color:#f7f8f9;
-padding-top:10%;
+/* background-color:#f7f8f9; */
+background-color:#00072D;
+padding-top:3%;
 `
 
 const ProjectContainer = styled.div`
@@ -85,6 +85,8 @@ width: 100%;
 
 const TitleDescription = styled.p`
 max-width: 100%;
+color: white;
+font-size: 0.8rem;
 
   @media (min-width: 768px) { //desktop
   max-width: 100%;
@@ -101,23 +103,27 @@ const ProjectTags = styled.p`
 font-family: "Roboto", sans-serif;
 color: white;
 background-color:#2e5894 ;
-font-size: 12px; 
+font-size: 0.8rem; 
 line-height: 12px;
 padding: 4px;
-margin: 1px;
+margin: 2px;
 border-radius: 4px;
 `
 
 const OtherContainer = styled.div`
-align-items: start;
+/* align-items: start; */
 padding: 10% 0% 10% 0%;
 text-align: center;
 `
 const OtherTitle = styled.p`
 margin: 1%;
+text-align: center;
+font-size: 0.8rem;
+color: white;
 `
 
 const OtherHeading = styled.h5`
-font-size: 18px;
-margin: 5%;
+font-size: 1rem;
+color: white;
+margin: 3%;
 `

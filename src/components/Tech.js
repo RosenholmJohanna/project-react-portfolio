@@ -12,8 +12,8 @@ export const Tech = () => {
   return (
     <TechStyles>
     <TechText>HTML5, CSS, <Highlighted>JavaScript</Highlighted> ES6,
-     APIs, mob-programming,pair-programming, Github, Redux, Node,
-    <Highlighted> React,React Hooks, </Highlighted> Flexbox, JSX
+     RestAPIs, mob-programming,pair-programming, Github, Redux, Node,
+    <Highlighted> React,React Hooks, </Highlighted> Flexbox, JSX<Highlighted> Node.js </Highlighted>
     </TechText>
     </TechStyles>
     );
@@ -22,28 +22,28 @@ export const Tech = () => {
 export default Tech;
 
 const TechStyles = styled.div`
+background-color:#00072D;
 font-family: 'montserrat';
 text-align:center;
-padding: 3%;
+padding: 1%;
 `
 
 const TechText = styled.p`
 line-height: 1.5;
-font-size: 1rem;
+font-size: 0.8rem;
 letter-spacing: 0.15rem;
-font-weight: 400;
+font-weight: 100;
 margin: 0px 1px 0px 1px;
 text-align: center;
-font-size: 14px;
+color: white;
 
   @media (min-width: 768px) {
-  font-size: 17px;
+  font-size: 14px;
   margin: 0% 15% 0% 15%;
   }
 `
 
 const Highlighted = styled.span`
-color:#984436;
+color:#42AEB5;
 margin-top: 0;
-font-weight: bolder;
 `

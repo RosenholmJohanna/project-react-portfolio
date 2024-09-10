@@ -7,23 +7,24 @@ import styled from 'styled-components';
 //import { IntroStyles } from "./IntroStyles";
 
 const IntroStyles = styled.div`
-background-color:#f7f8f9;
+/* background-color:#f7f8f9; */
+background-color:#00072D;
 font-family: 'montserrat';
-padding: 6% 0% 6% 0%;
+padding: 4% 0% 4% 0%;
 `
 
 const IntroText = styled.p`
-letter-spacing: 0.10rem;
-font-weight: 400;
+letter-spacing: 0.1rem;
+font-weight: lighter;
 line-height: 20px; 
-font-size: 14px;
-margin: 0% 2% 0% 2%;
-text-align: center;
+font-size: 0.8rem;
+margin: 0% 3% 0% 3%;
+text-align: left;
+color:white;
 
 @media (min-width: 768px) {
-    font-size: 17px;
-    margin: 0% 15% 0% 15%;
-    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 0% 10% 0% 10%;
     line-height: 20px; 
 }
 `

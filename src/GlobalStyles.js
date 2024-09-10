@@ -53,25 +53,26 @@ h3 {
 }
 `
 export const SectionHeading = styled.h4`
-max-width: fit-content;
 color: white;
-background-color:#acbdd3;
+width: 100%;
+display: inline-block;
+/* max-width: fit-content; */
+/* background-color:#acbdd3; */
 font-family: 'Montserrat';
 letter-spacing: 0.10rem;
-font-weight: Bold;
-font-size: 18px;
+font-size: 1.1rem;
 padding: 0.5%;
-box-shadow: #938690 0px 2px 4px, #544351 0px 2px 2px;
-margin-bottom: 10%;
+/* box-shadow: #938690 0px 2px 4px, #544351 0px 2px 2px;  */
+text-align: center;
 `
 
 export const Heading = styled.div`
-font-family: 'Roboto';
-font-style: normal;
-font-size: 1.1em;
-font-weight: 700;
+font-family: 'Montserrat';
+font-size: 1em;
+font-weight: 600;
 letter-spacing: 0.01em;
 color: #5d80b6;
+margin-bottom: 2%;
 `
 export const ProjectsWrapper = styled.div`
 `

@@ -6,13 +6,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaStackOverflow, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
-import { Section, SectionHeading } from 'GlobalStyles';
+import { Section } from 'GlobalStyles';
 
 const Social = () => {
     return (
   <Section>
+   
     <IconStyles>
-     <SectionHeading>SOCIAL</SectionHeading> 
      <a 
        href="https://www.linkedin.com/in/johanna-rosenholm-932942109/"
        role="button"
@@ -50,13 +50,14 @@ const IconStyles = styled.div`
 font-family: 'montserrat';
 text-align:center;
 background-color:#f7f8f9;
-padding-top:5%;
-padding-bottom: 5%;
+padding-top:3%;
+padding-bottom: 2%;
 
 a {
 justify-content: center;
-font-size: 60px;
-color:#b9aba3;
-margin: 1%;
+font-size: 40px;
+/* color:#b9aba3; */
+color:#00072D;
+margin: 5%;
 }
 `

@@ -13,31 +13,33 @@ export const Skills = () => {
           <Heading>CODE</Heading>
           <p>HTML5</p>
           <p>CSS</p>
-          <p>JavaScript</p>
+          <p>JavaScript ES6</p>
           <p>React</p>
-        </div>
-
-        <div>
-          <Heading>UPCOMING</Heading>
-          <p>C#</p>
-          <p>.NET</p>
-          <p>Node</p>
-          <p>.Redux</p>
+          <p>Redux</p>
+          <p>Node.js</p>
+          <p>MongoDB</p>
+          <p>MySQL</p>
         </div>
 
         <div>
           <Heading>TOOLBOX</Heading>
-          <p>Adobe</p>
+          <p>Git</p>
           <p>VS Code</p>
-          <p>Windows Server 2008</p>
-          <p>Active Directory</p>
+          <p>Google Cloud Platform</p>
+          <p>Postman</p>
+          <p>Figma</p>
+          <p>Git Bash</p>
+          <p>WIM</p>
         </div>
 
         <div>
           <Heading>MORE</Heading>
-          <p>Branding</p>
-          <p>Agile Methology</p>
-          <p>Place Management</p>
+          <p>Agile methodology</p>
+          <p>Mob-programming</p>
+          <p>Pair-programming</p>
+          <p>Project Management</p>
+          <p>Database Management</p>
+          <p>web security</p>
         </div>
       </SkillsContainer>
     </Section>
@@ -47,27 +49,32 @@ export const Skills = () => {
 export default Skills;
 
 const Section = styled.section`
-margin-left: 5%;
-margin-right: 5%;
-padding-top:10%;
+background-color:#00072D;
+color: white;
+/* margin-left: 5%;
+margin-right: 5%; */
+/* padding-top:6%; */
 text-align: center;
 align-items: center;
 justify-content: center;
-padding-bottom: 5%;
+padding-bottom: 3%;
 
 `
 const SkillsContainer = styled.div`
+margin-top: 7%;
+margin-bottom: 7%;
 text-align: center;
-align-items: center;
+align-items: start;
 justify-content: center;
+font-size: 0.8rem;
 display: grid;
 grid-gap: 15px;
 grid-template-columns: 1fr 1fr;
   
 
   @media (min-width: 768px) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 15%;
-    margin-right: 15%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 `
