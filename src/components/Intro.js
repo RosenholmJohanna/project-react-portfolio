@@ -4,10 +4,9 @@
 /* eslint-disable no-multiple-empty-lines */
 import React from 'react';
 import styled from 'styled-components';
-//import { IntroStyles } from "./IntroStyles";
+
 
 const IntroStyles = styled.div`
-/* background-color:#f7f8f9; */
 background-color:#001126;
 font-family: 'montserrat';
 padding: 4% 0% 4% 0%;
@@ -19,7 +18,7 @@ font-weight: lighter;
 line-height: 20px; 
 font-size: 0.8rem;
 margin: 0% 3% 3% 3%;
-text-align: center;
+
 color:white;
 
 @media (min-width: 768px) {
@@ -37,18 +36,15 @@ export const Intro = () => {
       On the frontend, my focus is on performance optimization and user experience, 
       while on the backend I try to
       specialize in database and API management. 
-      I also have a keen eye for design and a strong awareness of security aspects,
-      helping me create robust and visually appealing applications.
+      I also have a keen eye for design and awareness of security aspects.
       I’ve always had a strong interest in IT and technology, but it was during my
-      career as a radiology nurse that I realized how technology can
+      career as a radiology nurse that I realized how technology
       improve workflows and patient care. This inspired me to switch careers,
       with the hope of contributing to the creation and development of
       impactful digital products.
-      I’ve studied web development through Technigo bootcamp from August 2022 to January 2023,
+      I’ve studied web development through Technigo bootcamp from Aug 2022 to Jan 2023,
       and currently studying frontend and backend development with a focus on web security at
       Jensen Yrkeshögskola in Stockholm, with graduation in June 2025.
-
-
       </IntroText>
     </IntroStyles>
   );

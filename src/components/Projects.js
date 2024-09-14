@@ -49,7 +49,6 @@ export const FeaturedProjects = () => {
 };
     
 const Section = styled.section`
-/* background-color:#f7f8f9; */
 background-color:#001126;
 padding-top:3%;
 `
@@ -115,7 +114,6 @@ border-radius: 4px;
 `
 
 const OtherContainer = styled.div`
-/* align-items: start; */
 padding: 10% 0% 10% 0%;
 text-align: center;
 `

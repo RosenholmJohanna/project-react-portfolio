@@ -5,8 +5,6 @@
 /* eslint-disable no-multiple-empty-lines*/
 import React from 'react';
 import styled from 'styled-components';
-//import GlobalStyles from 'GlobalStyles'
-//import { TechStyles } from "./TechStyles";
 
 export const Tech = () => {
   return (

@@ -56,7 +56,6 @@ padding-bottom: 2%;
 a {
 justify-content: center;
 font-size: 40px;
-/* color:#b9aba3; */
 color:#00072D;
 margin: 5%;
 }

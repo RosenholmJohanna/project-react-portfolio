@@ -51,9 +51,6 @@ export default Skills;
 const Section = styled.section`
 background-color:#001126;
 color: white;
-/* margin-left: 5%;
-margin-right: 5%; */
-/* padding-top:6%; */
 text-align: center;
 align-items: center;
 justify-content: center;
