@@ -4,14 +4,14 @@
 /* eslint-disable no-multiple-empty-lines */ 
 import React from 'react';
 import styled from 'styled-components';
-import { SectionHeading, Heading, Project, Otherprojects } from 'GlobalStyles';
-import { otherprojects } from 'data/otherProjects';
+import { SectionHeading, Heading, Project } from 'GlobalStyles';
+//import { otherprojects } from 'data/otherProjects';
 import { projects } from '../data/projects';
 
 export const FeaturedProjects = () => {
   return (
     <Section>
-      <SectionHeading>FEATURED PROJECTS</SectionHeading>
+      <SectionHeading>PROJECTS</SectionHeading>
       <ProjectContainer>
         {projects.map((project) => {
           return (
@@ -30,7 +30,7 @@ export const FeaturedProjects = () => {
           );
         })}
       </ProjectContainer>
-      <OtherContainer>
+      {/* <OtherContainer>
         <OtherHeading>Other Projects</OtherHeading>
         {otherprojects.map((other) => { 
           return (
@@ -43,7 +43,7 @@ export const FeaturedProjects = () => {
             </Otherprojects>
           );
         })}
-      </OtherContainer>
+      </OtherContainer> */}
     </Section>
   );
 };
@@ -113,19 +113,19 @@ margin: 2px;
 border-radius: 4px;
 `
 
-const OtherContainer = styled.div`
-padding: 10% 0% 10% 0%;
-text-align: center;
-`
-const OtherTitle = styled.p`
-margin: 1%;
-text-align: center;
-font-size: 0.8rem;
-color: white;
-`
+// const OtherContainer = styled.div`
+// padding: 10% 0% 10% 0%;
+// text-align: center;
+// `
+// const OtherTitle = styled.p`
+// margin: 1%;
+// text-align: center;
+// font-size: 0.8rem;
+// color: white;
+// `
 
-const OtherHeading = styled.h5`
-font-size: 1rem;
-color: white;
-margin: 3%;
-`
+// const OtherHeading = styled.h5`
+// font-size: 1rem;
+// color: white;
+// margin: 3%;
+// `
