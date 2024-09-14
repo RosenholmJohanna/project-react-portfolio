@@ -49,7 +49,7 @@ export const Skills = () => {
 export default Skills;
 
 const Section = styled.section`
-background-color:#00072D;
+background-color:#001126;
 color: white;
 /* margin-left: 5%;
 margin-right: 5%; */

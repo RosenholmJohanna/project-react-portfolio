@@ -6,7 +6,7 @@ export const HeaderStyles = styled.header`
   height: 50vh;
   position:relative;
   /* background-image: url('https://images.pexels.com/photos/2889494/pexels-photo-2889494.jpeg?auto=compress&cs=tinysrgb&w=1600');  */
-  background-color:#00072D;
+  background-color:#001126;
   background-size:cover;
   font-family: 'montserrat';
   display:cover;

@@ -22,7 +22,7 @@ export const Tech = () => {
 export default Tech;
 
 const TechStyles = styled.div`
-background-color:#00072D;
+background-color:#001126;
 font-family: 'montserrat';
 text-align:center;
 padding: 1%;

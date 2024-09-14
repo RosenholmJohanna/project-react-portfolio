@@ -50,7 +50,7 @@ export const FeaturedProjects = () => {
     
 const Section = styled.section`
 /* background-color:#f7f8f9; */
-background-color:#00072D;
+background-color:#001126;
 padding-top:3%;
 `
 
@@ -62,7 +62,9 @@ padding: 0% 2% 0% 2%;
 margin-top: 5%;
     
   Img {
-  width: 100%;
+  width: 80%;
+  height: 25vh;
+  border-radius: 2% 2% 2% 2%;
   @media (max-width: 768px) {
     display: none;
   }
@@ -90,7 +92,7 @@ color: white;
 font-size: 0.8rem;
 
   @media (min-width: 768px) { //desktop
-  max-width: 100%;
+  max-width: 80%;
   }
   `
 
