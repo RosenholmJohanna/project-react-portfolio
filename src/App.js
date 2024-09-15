@@ -19,7 +19,7 @@ export const App = () => {
     <>
      <GlobalStyles />
       <Header
-        myName="Johanna Rosenholm"
+        myName="I'm Johanna Rosenholm"
         myTitle="Frontend Developer" 
         myDescription="With background in radiologic technology & commercial real estate management" 
         img 

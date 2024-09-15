@@ -20,7 +20,8 @@ export const Tech = () => {
 export default Tech;
 
 const TechStyles = styled.div`
-background-color:#001126;
+/* background-color:#001126; */
+background-color:#f7f8f9;
 font-family: 'montserrat';
 text-align:center;
 padding: 1%;
@@ -33,7 +34,7 @@ letter-spacing: 0.15rem;
 font-weight: 100;
 margin: 0px 1px 15px 1px;
 text-align: center;
-color: white;
+color: black;
 
   @media (min-width: 768px) {
   font-size: 14px;
@@ -42,7 +43,7 @@ color: white;
 `
 
 const Highlighted = styled.span`
-color:#2e5894;
+/* color:#2e5894; */
 margin-top: 0;
 font-weight: 900;
 `

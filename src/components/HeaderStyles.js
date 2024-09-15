@@ -5,7 +5,6 @@ export const HeaderStyles = styled.header`
   width: 100vw;
   height: 50vh;
   position:relative;
-  background-color:#001126;
   background-size:cover;
   font-family: 'montserrat';
   display:cover;
@@ -16,9 +15,9 @@ export const HeaderStyles = styled.header`
     border-radius: 50%; 
     border: 1px solid white;   
     position:absolute;
-    top: 60%;
+    top: 40%;
     right: 5%;
-    background-color: white;
+    background-color: #84c69b;
     object-fit: cover;
 
     @media (min-width: 768px) {
@@ -26,3 +25,8 @@ export const HeaderStyles = styled.header`
     height: 180px;
     width: 180px;
 }}`
+
+export const SubHeaderText = styled.h1`
+  color: #2f8886;
+  margin: 0;
+`

@@ -15,6 +15,7 @@ export const Project = styled.div`
 `
 
 export const Otherprojects = styled.div`
+color:black;
 `
 
 export const Section = styled.section`
@@ -24,8 +25,9 @@ justify-content: center;
 `
 
 export const HeaderText = styled.div`
-color: white;
+color: black;
 max-width: 50%;
+margin-top: 5%;
 
 h1 {
     letter-spacing: 0.10rem;
@@ -55,7 +57,7 @@ h3 {
 }
 `
 export const SectionHeading = styled.h4`
-color: white;
+color: black;
 width: 100%;
 display: inline-block;
 /* max-width: fit-content; */
@@ -71,10 +73,11 @@ text-align: center;
 export const Heading = styled.div`
 font-family: 'Montserrat';
 font-size: 1em;
-font-weight: 600;
 letter-spacing: 0.01em;
-color: #5d80b6;
+//color: #5d80b6;
+color: #2f8886;
 margin-bottom: 2%;
+font-weight: 550;
 `
 export const ProjectsWrapper = styled.div`
 `

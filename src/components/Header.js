@@ -8,7 +8,7 @@ import { HeaderText } from 'GlobalStyles';
 import img from 'assets/profile.png'
 import { FaStackOverflow, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import styled from 'styled-components';
-import { HeaderStyles } from './HeaderStyles';
+import { HeaderStyles, SubHeaderText } from './HeaderStyles';
 
 const IconStyles = styled.div`
 font-family: 'montserrat';
@@ -17,7 +17,7 @@ padding: 2%;
 
 a {
 font-size: 30px;
-color:white;
+color:#84c69b;
 margin: 1%;
 }
 `
@@ -50,7 +50,7 @@ const Header = ({ myName, myTitle, myDescription }) => {
     </a>
     </IconStyles>
     <HeaderText> 
-    <h1>{myName}</h1>
+    <SubHeaderText>{myName}</SubHeaderText>
     <h2>{myTitle}</h2>
     <h3>{myDescription}</h3>
     <img src={img} alt="me" />

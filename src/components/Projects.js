@@ -4,8 +4,8 @@
 /* eslint-disable no-multiple-empty-lines */ 
 import React from 'react';
 import styled from 'styled-components';
-import { SectionHeading, Heading, Project } from 'GlobalStyles';
-//import { otherprojects } from 'data/otherProjects';
+import { SectionHeading, Heading, Project, Otherprojects } from 'GlobalStyles';
+import { otherprojects } from 'data/otherProjects';
 import { projects } from '../data/projects';
 
 export const FeaturedProjects = () => {
@@ -30,7 +30,7 @@ export const FeaturedProjects = () => {
           );
         })}
       </ProjectContainer>
-      {/* <OtherContainer>
+      <OtherContainer>
         <OtherHeading>Other Projects</OtherHeading>
         {otherprojects.map((other) => { 
           return (
@@ -43,13 +43,12 @@ export const FeaturedProjects = () => {
             </Otherprojects>
           );
         })}
-      </OtherContainer> */}
+      </OtherContainer>
     </Section>
   );
 };
     
 const Section = styled.section`
-background-color:#001126;
 padding-top:3%;
 `
 
@@ -87,7 +86,7 @@ width: 100%;
 
 const TitleDescription = styled.p`
 max-width: 100%;
-color: white;
+color: black;
 font-size: 0.8rem;
 
   @media (min-width: 768px) { //desktop
@@ -105,27 +104,26 @@ margin-bottom: 5%;
 const ProjectTags = styled.p`
 font-family: "Roboto", sans-serif;
 color: white;
-background-color:#2e5894;
-font-size: 0.8rem; 
+//background-color:#2e5894;
+background-color: #2f8886;
+font-size: 0.7rem; 
 line-height: 12px;
 padding: 4px;
 margin: 2px;
 border-radius: 4px;
 `
 
-// const OtherContainer = styled.div`
-// padding: 10% 0% 10% 0%;
-// text-align: center;
-// `
-// const OtherTitle = styled.p`
-// margin: 1%;
-// text-align: center;
-// font-size: 0.8rem;
-// color: white;
-// `
+const OtherContainer = styled.div`
+padding: 10% 0% 10% 0%;
+text-align: center;
+`
+const OtherTitle = styled.p`
+margin: 1%;
+text-align: center;
+font-size: 0.8rem;
+`
 
-// const OtherHeading = styled.h5`
-// font-size: 1rem;
-// color: white;
-// margin: 3%;
-// `
+const OtherHeading = styled.h5`
+font-size: 1rem;
+margin: 2%;
+`

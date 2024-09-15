@@ -49,8 +49,6 @@ export const Skills = () => {
 export default Skills;
 
 const Section = styled.section`
-background-color:#001126;
-color: white;
 text-align: center;
 align-items: center;
 justify-content: center;

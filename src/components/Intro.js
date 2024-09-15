@@ -7,19 +7,17 @@ import styled from 'styled-components';
 
 
 const IntroStyles = styled.div`
-background-color:#001126;
 font-family: 'montserrat';
 padding: 4% 0% 4% 0%;
 `
 
 const IntroText = styled.p`
-letter-spacing: 0.1rem;
+/* letter-spacing: 0.1rem; */
 font-weight: lighter;
-line-height: 20px; 
+line-height: 17px; 
 font-size: 0.8rem;
 margin: 0% 3% 3% 3%;
-
-color:white;
+color:black;
 
 @media (min-width: 768px) {
     font-size: 0.8rem;
@@ -32,16 +30,13 @@ export const Intro = () => {
   return (
     <IntroStyles>
       <IntroText>
-      Hi! My name is Johanna, and I’m studying to become a full-stack developer.
+      My name is Johanna, and I’m studying to become a full-stack developer.
       On the frontend, my focus is on performance optimization and user experience, 
       while on the backend I try to
       specialize in database and API management. 
       I also have a keen eye for design and awareness of security aspects.
-      I’ve always had a strong interest in IT and technology, but it was during my
-      career as a radiology nurse that I realized how technology
-      improve workflows and patient care. This inspired me to switch careers,
-      with the hope of contributing to the creation and development of
-      impactful digital products.
+      </IntroText>
+      <IntroText>
       I’ve studied web development through Technigo bootcamp from Aug 2022 to Jan 2023,
       and currently studying frontend and backend development with a focus on web security at
       Jensen Yrkeshögskola in Stockholm, with graduation in June 2025.
